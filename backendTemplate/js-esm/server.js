@@ -6,7 +6,7 @@ import connectDB from './config/db.js';
 import { notFound, errorHandler } from './middleware/error.middleware.js';
 
 import authRoutes from './routes/auth.routes.js';
-import _entities_Routes from './routes/_entity_.routes.js'; // PLACEHOLDER: rename import + path once _entity_ is renamed
+import _entities_Routes from './routes/entity.routes.js'; // PLACEHOLDER: rename import + path once _entity_ is renamed
 
 connectDB();
 
